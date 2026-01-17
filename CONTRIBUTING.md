@@ -6,6 +6,14 @@ Whether you are a veteran developer with a finished mod or a student looking to 
 
 It is our hope to keep this organization neat, clean, and adherent to technical standards, but we also want to make it friendly to people from all levels of experience. We understand that learning Git involves a learning curve. However, this community effort requires that we all be willing to step out of our comfort zones to an extent. By respecting everyone's time and following these constraints, we improve the general experience for everyone—whether they are developers or players.
 
+## 📜 Table of Contents
+*   [The Core Philosophy](#-the-core-philosophy-main-is-for-players)
+*   [Bringing a New Mod to the Org](#-bringing-a-new-mod-to-the-org)
+*   [Setup: Tags and Releases](#-setup-tags-and-releases)
+*   [Contributing to Existing Mods](#-contributing-to-existing-mods)
+*   [Housekeeping Standards](#-housekeeping-standards)
+*   [Getting Help](#-getting-help)
+
 ---
 
 ## 🏗️ The Core Philosophy: "Main is for Players"
