@@ -7,15 +7,15 @@ If you are reading this, you are likely looking for one of three things: a way t
 We admit, this is a bit of a long read. However, we operate on a model of radical transparency and trust, so we hope you will read through this in full to understand if this is the right place for you.
 
 ## 📜 Table of Contents
-*   [What We Are (And What We Are Not)](#-what-we-are-and-what-we-are-not)
-*   [Visual Accessibility: A Primer for Outsiders](#-visual-accessibility-a-primer-for-outsiders)
-*   [Code of Conduct & Transparency](#-code-of-conduct--transparency)
-*   [For Contributors: The Workflow](#-for-contributors-the-workflow)
-*   [Repository Structure](#-repository-structure)
+*   [What We Are (And What We Are Not)](#what-we-are-and-what-we-are-not)
+*   [Visual Accessibility: A Primer for Outsiders](#visual-accessibility-a-primer-for-outsiders)
+*   [Code of Conduct & Transparency](#code-of-conduct--transparency)
+*   [For Contributors: The Workflow](#for-contributors-the-workflow)
+*   [Repository Structure & Topics](#repository-structure--topics)
 
 ---
 
-## 🛡️ What We Are (And What We Are Not)
+## What We Are (And What We Are Not)
 
 We are a centralized hub for **Accessibility Mods**—modifications designed specifically to enable blind and visually impaired gamers to play mainstream titles.
 
@@ -29,14 +29,14 @@ Our philosophy is **Translation, Not Transformation.**
 
 Our goal is to inject accessibility layers—screen reader support, audio cues, and navigational aids—into games that otherwise have none. We use standard modding tools where available, and where they aren't, we utilize hooks solely to read game state for accessibility.
 
-A prime example of this philosophy in action is [Hearthstone Access](https://github.com/HearthSim/Hearthstone-Access), which opened a game to thousands of blind players without compromising the competitive integrity of the original. This project is a testament to the community's resilience: when the original developer could no longer support it, the community rallied to revive and maintain it collaboratively. It even garnered attention from Blizzard, sparking discussions about adding native accessibility features to render the mod redundant—a future we would welcome from you as well, should one of your games be featured here.
+A prime example of this philosophy in action is [Hearthstone Access](https://hearthstoneaccess.com/), which opened a game to thousands of blind players without compromising the competitive integrity of the original. This project is a testament to the community's resilience: when the original developer could no longer support it, the community rallied to revive and maintain it collaboratively. It even garnered attention from Blizzard, sparking discussions about adding native accessibility features to render the mod redundant—a future we would welcome from you as well, should one of your games be featured here.
 
 **A Note on Mechanics:**
 Occasionally, a mod may slightly alter a mechanic, such as a timer. This is not to cheat, but to accommodate physics. Light travels faster than sound. It takes a sighted player a fraction of a second to glance at a UI element; it takes a blind player significantly longer for a screen reader to speak that same information. We only adjust these elements to level the playing field, ensuring the *intent* of the challenge remains intact.
 
 ---
 
-## 👁️ Visual Accessibility: A Primer for Outsiders
+## Visual Accessibility: A Primer for Outsiders
 
 If you are an indie dev or a sighted gamer stumbling upon this org, you might be wondering what "Accessibility Modding" actually looks like.
 
@@ -53,7 +53,7 @@ To learn more about vision impaired accessible design, the specific libraries we
 
 ---
 
-## 🤝 Code of Conduct & Transparency
+## Code of Conduct & Transparency
 
 This organization runs on a principle of **High Trust and Zero Ego.**
 
@@ -67,7 +67,7 @@ We are all here because we love games and we want to play them. That shared pass
 
 ---
 
-## 🛠️ For Contributors: The Workflow
+## For Contributors: The Workflow
 
 We know you just want to write code and not get bogged down in bureaucracy. However, to keep this hub professional and safe for users, we have a structured workflow.
 
@@ -88,28 +88,24 @@ For a complete guide on how to set up your repo, naming conventions, and contrib
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure & Topics
 
-Finding what you need in a growing organization can be difficult. Obviously, everything here is organized into repositories, but these repositories can be of different types.
+Finding what you need in a growing organization can be difficult. To help you sort through them, we use **GitHub Topics**.
 
-To help you sort through them, we use **GitHub Topics**. You can identify a repository's type by looking for these tags in the repository header:
+You can identify a repository's type by looking for these tags in the repository header, or by searching `topic:tagname` in the main search bar:
 
 *   `game-mod`: Playable accessibility modifications for games.
 *   `dev-tool`: Standalone utilities (installers, patchers, etc).
 *   `library`: Code resources for developers (wrappers, APIs).
 *   `template`: Starter kits for new mods.
 
-**How to Search:**
-You can filter our repositories list by typing these topics into the search bar.
-*(Note: Use your screen reader's navigation keys to locate the "Find a repository..." search field, type your query like `topic:game-mod`, press Enter, and then navigate by heading to locate the results).*
-
 **Configuration & Documentation:**
-Finally, if you are looking for the documents that govern this organization, they are located in our configuration repository:
+Finally, if you are looking for the documents that govern this organization, they are located in our configuration repository. You can click the links below to read them:
 
 *   **[AccessMods/.github](https://github.com/AccessMods/.github):**
-    *   `profile/README.md`: The page you are reading right now.
-    *   `CONTRIBUTING.md`: The technical rules of the road.
-    *   `ACCESSIBILITY_WORKFLOW.md`: Resources and guides for accessibility tech.
+    *   [profile/README.md](https://github.com/AccessMods/.github/blob/main/profile/README.md): The page you are reading right now.
+    *   [CONTRIBUTING.md](https://github.com/AccessMods/.github/blob/main/CONTRIBUTING.md): The technical rules of the road.
+    *   [ACCESSIBILITY_WORKFLOW.md](https://github.com/AccessMods/.github/blob/main/ACCESSIBILITY_WORKFLOW.md): Resources and guides for accessibility tech.
 
 Feel free to explore the repositories tab to download mods, or join the discussion to help build the next one.
 
