@@ -16,7 +16,7 @@ It is our hope to keep this organization neat, clean, and adherent to technical 
 
 ---
 
-## 🏗️ The Core Philosophy: "Main is for Players"
+## The Core Philosophy: "Main is for Players"
 
 We follow standard professional software development practices to ensure safety and stability. The `main` branch of any repository must always be stable.
 
@@ -42,7 +42,7 @@ If you are contributing to a repo you do not own, opening a Pull Request is the 
 
 ---
 
-## 🆕 Bringing a New Mod to the Org
+## Bringing a New Mod to the Org
 
 If you have created a mod and want to host it here, welcome! Here is the standard "Onboarding Ritual":
 
@@ -64,7 +64,7 @@ You now have full control again. You can manage settings, add your own collabora
 
 ---
 
-## 🏷️ Setup: Tags and Releases
+## Setup: Tags and Releases
 
 Once your repo is moved, please do these two things. It might sound like extra homework, but it makes a huge difference for the end-user.
 
@@ -85,7 +85,7 @@ Please use the GitHub Releases feature to upload your compiled mod.
 
 ---
 
-## 🛠️ Contributing to Existing Mods
+## Contributing to Existing Mods
 
 If you want to improve a mod that is already hosted here (and you aren't the primary owner), please use the standard **Fork and Pull** workflow.
 
@@ -118,7 +118,7 @@ The repository owner will review your code. Be open to feedback—code review is
 
 ---
 
-## 🧹 Housekeeping Standards
+## Housekeeping Standards
 
 To keep the organization clean, we ask for a few small things:
 
@@ -130,6 +130,6 @@ To keep the organization clean, we ask for a few small things:
 
 ---
 
-## ❓ Getting Help
+## Getting Help
 
 If you are stuck with Git, confused about a Transfer, or just want to ask about the best way to hook into a Unity function, ask in the **#development** channel on Discord. We are here to help you ship code, not to judge your git history.
