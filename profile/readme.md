@@ -45,10 +45,10 @@ This goes beyond simply changing contrast settings or adding text-to-speech. We 
 *   **Screen Reader Output:** Sending UI text (menus, inventory, dialogue) to screen readers like NVDA, JAWS, or SAPI.
 *   **3D Audio Cues:** Using stereo or surround sound to indicate the position of enemies, objectives, or walls.
 *   **Grid Navigation:** Translating visual maps into coordinate systems that can be traversed by sound.
-*   **Sonar Systems:** Implementing proximity scanners that change pitch or frequency to alert players to nearby walls, traps, or interactables,or help them path-find to nearest waypoints.
+*   **Sonar Systems:** Implementing proximity scanners that change pitch or frequency to alert players to nearby walls, traps, or interactables, or help them path-find to nearest waypoints.
 *   **OCR & Hooking:** Reading the game's memory or visual buffer to detect state changes that have no audio cue.
 
-To learn more about vision impaired accessible design, the specific libraries we use (like Tolk or Universal Speech) and how we approach different engines, check out our deep dive:
+To learn more about vision impaired accessible design, the specific libraries we use (like Tolk or Universal Speech), and how we approach different engines, check out our deep dive:
 👉 **[Read the Full Accessibility Modding Workflow](https://github.com/AccessMods/.github/blob/main/ACCESSIBILITY_WORKFLOW.md)**
 
 ---
@@ -90,9 +90,23 @@ For a complete guide on how to set up your repo, naming conventions, and contrib
 
 ## 📂 Repository Structure
 
-To help you navigate, here is how our configuration is set up. You are currently viewing the **Organization Profile**.
+Finding what you need in a growing organization can be difficult. Obviously, everything here is organized into repositories, but these repositories can be of different types.
 
-*   **[AccessMods/.github](https://github.com/AccessMods/.github):** This is the configuration repo.
+To help you sort through them, we use **GitHub Topics**. You can identify a repository's type by looking for these tags in the repository header:
+
+*   `game-mod`: Playable accessibility modifications for games.
+*   `dev-tool`: Standalone utilities (installers, patchers, etc).
+*   `library`: Code resources for developers (wrappers, APIs).
+*   `template`: Starter kits for new mods.
+
+**How to Search:**
+You can filter our repositories list by typing these topics into the search bar.
+*(Note: Use your screen reader's navigation keys to locate the "Find a repository..." search field, type your query like `topic:game-mod`, press Enter, and then navigate by heading to locate the results).*
+
+**Configuration & Documentation:**
+Finally, if you are looking for the documents that govern this organization, they are located in our configuration repository:
+
+*   **[AccessMods/.github](https://github.com/AccessMods/.github):**
     *   `profile/README.md`: The page you are reading right now.
     *   `CONTRIBUTING.md`: The technical rules of the road.
     *   `ACCESSIBILITY_WORKFLOW.md`: Resources and guides for accessibility tech.
