@@ -33,6 +33,7 @@ We generally avoid mechanical enhancements (like aim-bots or god-mode) unless th
 
 ## Further Reading: The Rabbit Hole
 
+**A Note for Developers:**
 This document focuses on the *technical implementation* of **mods**. As such, if you are a developer wishing to have accessibility baked into your game from the start, you may not find **everything** you are looking for here.
 
 While the logic is largely similar (e.g., sending text to a screen reader), the implementation differs between native development and external modification. Therefore, to keep this document focused, we have linked further reading below on the broader topic of accessible game design.
@@ -51,7 +52,7 @@ How do we actually get a game to "speak"? Regardless of the engine, the concept 
 
 ### 1. Screen Reader Abstraction
 Most blind users utilize a Screen Reader (like NVDA, JAWS, or Narrator) to navigate their computer. We do not want to write code for each specific reader.
-*   Solution: We use libraries like **[Tolk](https://github.com/dkager/Tolk)** or **[Universal Speech](https://github.com/qtnc/UniversalSpeech)**. These are "wrapper" libraries. You send text to them (e.g., `Speak("Game Started")`), and they automatically detect which screen reader the user has running and pass the message along.
+*   Solution: We use wrapper libraries. You send text to them (e.g., `Speak("Game Started")`), and they automatically detect which screen reader the user has running and pass the message along.
 
 ### 2. Input Hooking
 Sometimes we need to trigger accessibility features (like "Read current objective") using keys that the game doesn't use.
@@ -67,6 +68,11 @@ In many cases, the game doesn't "know" it needs to send text to us.
 
 We don't expect you to reinvent the wheel. Here are the tools we use to bridge the gap between the game engine and the screen reader.
 
+### Accessibility Libraries
+These are the bridges between your code and the user's screen reader.
+*   **[Tolk](https://github.com/dkager/Tolk):** The gold standard library. It wraps NVDA, JAWS, ZP, and SAPI into a single `.dll`.
+*   **[Universal Speech](https://github.com/qtnc/UniversalSpeech):** Another popular alternative. Some have more success with this one than the first. Our unity accessibility tool also uses this.
+
 ### General Modding Frameworks
 These are the industry-standard tools used by modders everywhere (sighted or blind) to inject code into games.
 *   **[BepInEx](https://github.com/BepInEx/BepInEx):** The go-to framework for Unity (and some .NET) games. It handles loading your DLLs into the game.
@@ -74,7 +80,7 @@ These are the industry-standard tools used by modders everywhere (sighted or bli
 *   **[RE-UE4SS](https://github.com/UE4SS-RE/RE-UE4SS):** A powerful scripting system and C++ modding API for Unreal Engine games.
 
 ### Community Accessibility Tools
-Over time, our community realized we were writing the same code over and over again—code to find the screen reader, code to clean up text tags, code to manage audio queues. So, we abstracted it.
+Over time, our community realized we were writing the same code over and over again. So, we abstracted it.
 
 #### UnityAccessibilityLib
 This is a specialized library maintained by this organization. It is designed to work alongside BepInEx or MelonLoader to handle the heavy lifting of accessibility.
