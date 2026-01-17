@@ -103,7 +103,7 @@ You can identify a repository's type by looking for these tags in the repository
 Finally, if you are looking for the documents that govern this organization, they are located in our configuration repository. You can click the links below to read them:
 
 *   **[AccessMods/.github](https://github.com/AccessMods/.github):**
-    *   [profile/README.md](https://github.com/AccessMods/.github/blob/main/profile/README.md): The page you are reading right now.
+    *   [profile/readme.md](https://github.com/AccessMods/.github/blob/main/profile/readme.md): The page you are reading right now.
     *   [CONTRIBUTING.md](https://github.com/AccessMods/.github/blob/main/CONTRIBUTING.md): The technical rules of the road.
     *   [ACCESSIBILITY_WORKFLOW.md](https://github.com/AccessMods/.github/blob/main/ACCESSIBILITY_WORKFLOW.md): Resources and guides for accessibility tech.
 
